@@ -12,6 +12,7 @@ import * as cors from 'cors';
 import { json } from 'body-parser';
 
 import { router as authRoute } from './app/routes/auth';
+import { router as imoveisRoute } from './app/routes/imoveis';
 import { requireJwtToken } from './app/middlewares/jwt';
 
 MongoClient.connect(
@@ -32,6 +33,8 @@ app.use(json());
 app.get('/api', (req, res) => {
   res.send({ message: 'Welcome to api!' });
 });
+
+app.use('/api/imoveis', imoveisRoute);
 
 app.use('/api/auth', authRoute);
 
