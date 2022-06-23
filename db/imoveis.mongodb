@@ -1,0 +1,18 @@
+use('app-imobiliarias');
+
+db.imoveis.drop();
+
+db.imoveis.insertMany([
+  {
+    '_id': 1,
+    'descricao': 'Casa em ótimo estado de conservação',
+    'bairro': 'Sitio Cercado',
+    'cidade': 'Curitiba',
+    'valor': 0,
+    'mt': 0,
+    'fotos': {
+      'principal': 'url_0',
+      'img': ['url_1', 'url_2', 'url_3'],
+    }
+  },
+]);
