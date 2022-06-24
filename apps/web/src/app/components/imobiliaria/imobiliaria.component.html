@@ -1,1 +1,18 @@
-<h1>Compre sua casa!!!</h1>
+<p-card *ngFor="let imovel of (imoveis$ | async)">
+  <div *ngFor="let fotos of imovel.fotos | keyvalue">
+    <div *ngIf="fotos.key == 'principal'">
+      <img src="{{ fotos.value }}" alt="" />
+        <h3>Endereço:</h3>
+        <p>
+          Bairro: {{imovel.bairro}}
+          Cidade: {{imovel.cidade}}
+        </p>
+        <h3>Descrição:</h3>
+        <p>
+          <span>{{ imovel.descricao }}</span>
+          Metragem: {{imovel.mt}}
+          Valor: {{imovel.valor}}
+        </p>
+    </div>
+  </div>
+</p-card>

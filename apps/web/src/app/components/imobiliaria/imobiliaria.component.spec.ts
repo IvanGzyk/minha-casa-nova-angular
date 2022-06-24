@@ -1,10 +1,10 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImobiliariasComponent } from './imobiliaria.component';
+import { ImobiliariaComponent } from './imobiliaria.component';
 
-describe('ImobiliariasComponent', () => {
-  let component: ImobiliariasComponent;
-  let fixture: ComponentFixture<ImobiliariasComponent>;
+describe('ImobiliariaComponent', () => {
+  let component: ImobiliariaComponent;
+  let fixture: ComponentFixture<ImobiliariaComponent>;
 
   it('should create', () => {
     expect(component).toBeTruthy();

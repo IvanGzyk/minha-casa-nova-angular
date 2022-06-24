@@ -2,7 +2,7 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 
 import { HomeComponent } from "./components/home/home.component";
-import { ImobiliariasComponent } from "./components/imobiliaria/imobiliaria.component";
+import { ImobiliariaComponent } from "./components/imobiliaria/imobiliaria.component";
 
 const routes: Routes = [
   {
@@ -21,7 +21,7 @@ const routes: Routes = [
       },
       {
         path: 'imobiliarias',
-        component: ImobiliariasComponent,
+        component: ImobiliariaComponent,
       },
     ],
   },

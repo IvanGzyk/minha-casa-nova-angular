@@ -40,7 +40,6 @@ export class LoginComponent implements OnInit {
         return of(undefined);
       }),
     ).subscribe((resultado: ({token: string} | undefined)) => {
-      alert(resultado)
       if (!resultado) {
         this.messageService.add({
           severity: 'error',

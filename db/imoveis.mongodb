@@ -11,7 +11,67 @@ db.imoveis.insertMany([
     'valor': 0,
     'mt': 0,
     'fotos': {
-      'principal': 'url_0',
+      'principal': 'https://imgbr.imovelwebcdn.com/avisos/2/29/58/30/45/26/720x532/2341514553.jpg',
+      'img': ['url_1', 'url_2', 'url_3'],
+    }
+  },
+  {
+    '_id': 2,
+    'descricao': 'Casa em ótimo estado de conservação',
+    'bairro': 'Sitio Cercado',
+    'cidade': 'Curitiba',
+    'valor': 0,
+    'mt': 0,
+    'fotos': {
+      'principal': 'https://i.ytimg.com/vi/AuhFHnVAd_M/maxresdefault.jpg',
+      'img': ['url_1', 'url_2', 'url_3'],
+    }
+  },
+  {
+    '_id': 3,
+    'descricao': 'Casa em ótimo estado de conservação',
+    'bairro': 'Sitio Cercado',
+    'cidade': 'Curitiba',
+    'valor': 0,
+    'mt': 0,
+    'fotos': {
+      'principal': 'https://images.adsttc.com/media/images/5f90/e509/63c0/1779/0100/010e/newsletter/3.jpg?1603331288',
+      'img': ['url_1', 'url_2', 'url_3'],
+    }
+  },
+  {
+    '_id': 4,
+    'descricao': 'Casa em ótimo estado de conservação',
+    'bairro': 'Sitio Cercado',
+    'cidade': 'Curitiba',
+    'valor': 0,
+    'mt': 0,
+    'fotos': {
+      'principal': 'https://ogimg.infoglobo.com.br/in/25354107-e0f-bd7/FT1086A/CasasDivulgacao-Avanco-reduzida.jpg',
+      'img': ['url_1', 'url_2', 'url_3'],
+    }
+  },
+  {
+    '_id': 5,
+    'descricao': 'Casa em ótimo estado de conservação',
+    'bairro': 'Sitio Cercado',
+    'cidade': 'Curitiba',
+    'valor': 0,
+    'mt': 0,
+    'fotos': {
+      'principal': 'https://www.plantapronta.com.br/projetos/161/02.jpg',
+      'img': ['url_1', 'url_2', 'url_3'],
+    }
+  },
+  {
+    '_id': 6,
+    'descricao': 'Casa em ótimo estado de conservação',
+    'bairro': 'Sitio Cercado',
+    'cidade': 'Curitiba',
+    'valor': 0,
+    'mt': 0,
+    'fotos': {
+      'principal': 'https://i.pinimg.com/736x/97/9b/36/979b3647e8d15e106825022abc35cfa2.jpg',
       'img': ['url_1', 'url_2', 'url_3'],
     }
   },

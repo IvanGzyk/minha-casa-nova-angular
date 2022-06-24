@@ -14,7 +14,7 @@ import { AppErrorHandler } from './app-error-handler';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { ImobiliariasComponent } from './components/imobiliaria/imobiliaria.component';
+import { ImobiliariaComponent } from './components/imobiliaria/imobiliaria.component';
 import { AuthModule } from './modules/auth/auth.module';
 import { JwtInterceptor } from './jwt.interceptor';
 
@@ -22,7 +22,7 @@ import { JwtInterceptor } from './jwt.interceptor';
   declarations: [
     AppComponent,
     HomeComponent,
-    ImobiliariasComponent,
+    ImobiliariaComponent,
   ],
   imports: [
     BrowserModule,
