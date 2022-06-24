@@ -20,3 +20,13 @@ router.get('/',async (req: Request, res: Response, next: NextFunction) => {
   ).find().toArray();
   res.json(imoveis);
 })
+
+router.post('/', async (req: Request, res: Response, next: NextFunction) => {
+  const body: IImovel = req.body;
+
+  const results = await getCollection<IImovel>(
+    req.app,
+    'imoveis',
+  ).insertOne(req.body);
+  res.json(results);
+})
