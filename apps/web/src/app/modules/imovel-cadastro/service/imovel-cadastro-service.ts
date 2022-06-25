@@ -7,20 +7,12 @@ import { Imovel as IImovel } from "@cefwm-angular/common";
   providedIn: "root",
 })
 
-export class ImovelService {
+export class ImovelCadastroService {
 
   constructor(
     private httpClient: HttpClient,
   ) {
 
-  }
-
-  public getAll(): Observable<IImovel[]> {
-
-    return this.httpClient.get<IImovel[]>(
-      '/api/imoveis',
-    ).pipe(
-    );
   }
 
   public postOne(imovel: IImovel): Observable<string> {

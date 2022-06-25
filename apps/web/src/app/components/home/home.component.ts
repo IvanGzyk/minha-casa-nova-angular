@@ -15,6 +15,11 @@ export class HomeComponent implements OnInit {
       icon: 'pi pi-home',
       routerLink: [ '/home' ],
     },
+    {
+      label: 'Novo',
+      icon: 'pi pi-save',
+      routerLink: [ 'cadastra-imovel' ],
+    },
   ];
 
   constructor() { }

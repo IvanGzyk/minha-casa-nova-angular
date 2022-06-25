@@ -1,0 +1,37 @@
+<div class="form">
+  <form (ngSubmit)="enviaForm(formGroup.value)"
+  class="card"
+  >
+
+    <h5>Cadastro de Imoveis</h5>
+
+    <div class="field">
+      <label for="descricao">Descrição</label>
+      <input pInputText formControlName autofocus id="descricao" type="text" placeholder="Descrição do imovel" class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-rounder appearance-none outline-none focus:border-primary w-full">
+    </div>
+    <div class="field">
+      <label for="bairro">Bairro</label>
+      <input pInputText formControlName id="bairro" type="text" placeholder="Descrição do imovel" class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-rounder appearance-none outline-none focus:border-primary w-full">
+    </div>
+    <div class="field">
+      <label for="cidade">Cidade</label>
+      <input pInputText formControlName id="cidade" type="text" placeholder="Descrição do imovel" class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-rounder appearance-none outline-none focus:border-primary w-full">
+    </div>
+    <div class="field">
+      <label for="valor">Valor Venal</label>
+      <input pInputText formControlName id="valor" type="text" placeholder="Descrição do imovel" class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-rounder appearance-none outline-none focus:border-primary w-full">
+    </div>
+    <div class="field">
+      <label for="mt">Metragem</label>
+      <input pInputText formControlName id="mt" type="text" placeholder="Descrição do imovel" class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-rounder appearance-none outline-none focus:border-primary w-full">
+    </div>
+    <div class="field">
+      <label for="foto">Foto</label>
+      <input pInputText formControlName id="foto" type="text" placeholder="Descrição do imovel" class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-rounder appearance-none outline-none focus:border-primary w-full">
+    </div>
+
+    <button pButton icon="pi pi-save" label="Salvar" type="submit">
+      Salvar
+    </button>
+  </form>
+</div>

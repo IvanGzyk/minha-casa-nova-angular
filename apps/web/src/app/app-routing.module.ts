@@ -3,6 +3,7 @@ import { RouterModule, Routes } from "@angular/router";
 
 import { HomeComponent } from "./components/home/home.component";
 import { ImobiliariaComponent } from "./components/imobiliaria/imobiliaria.component";
+import { ImovelCadastroComponent } from "./modules/imovel-cadastro/components/imovel-cadastro/imovel-cadastro.component";
 
 const routes: Routes = [
   {
@@ -23,6 +24,16 @@ const routes: Routes = [
         path: 'imobiliarias',
         component: ImobiliariaComponent,
       },
+      {
+        path: 'cadastra-imovel',
+        component: ImovelCadastroComponent,
+      },
+      // {
+      //   path: 'cadastra-imovel',
+      //   loadChildren: () => import(
+      //     './modules/imovel-cadastro/imovel-cadastro-module'
+      //   ).then(mod => mod.ImovelCadastroModule),
+      // },
     ],
   },
   {

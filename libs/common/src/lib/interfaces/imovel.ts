@@ -5,7 +5,7 @@
 export interface Imovel {
 
   /**
-   *identificador unico do imavel
+   *identificador unico do imovel
    */
   _id: number;
 
@@ -35,8 +35,8 @@ export interface Imovel {
   mt: number;
 
   /**
-   * Objeto contendo as fotos do imovel (o obj de conter principal com uma imagem principal e img com um array de imagens)
+   * Objeto contendo as foto do imovel (o obj de conter principal com uma imagem principal e img com um array de imagens)
    */
-  fotos: object;
+  foto: string;
 
 }

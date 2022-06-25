@@ -25,4 +25,13 @@ export class ImobiliariaComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public cadastrar(imovel: IImovel): void{
+    this.router.navigate([
+      '..',
+      'cadastra-imovel',
+    ], {
+      relativeTo: this.activatedRoute,
+    });
+  }
+
 }
